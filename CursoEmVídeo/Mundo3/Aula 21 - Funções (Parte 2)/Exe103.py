@@ -4,6 +4,12 @@
 # mesmo que algum dado não tenha sido informado corretamente.
 
 def ficha(jogador='<desconhecido>', gols=0): # Função ficha do jogador #
+    """
+    -> Ficha dos jogadores
+    :param jogador: (opcional) O nome do jogador
+    :param gols: (opcional) A quantidade de gols
+    :param return: False
+    """
     print(f'O jogador {jogador} fez {gols} gols no campeonato.') # Print da função #
 
 # Programa principal #
@@ -17,3 +23,5 @@ if j.strip() == '': # Condição para imprimir na tela #
     ficha(gols=g)
 else:
     ficha(j, g)
+    
+# help(LeiaInt) #

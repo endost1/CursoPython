@@ -3,6 +3,11 @@
 # só que fazendo a validação para aceitar apenas um valor numérico. Ex: n = leiaInt(‘Digite um n: ‘)
 
 def LeiaInt(msg): # Função LeiaInt #
+    """
+    -> Função para ler apenas números
+    :param msg: Mensagem que irar ser transformada número
+    :param return: Retorna o valor 
+    """
     ok = False # Condição inicial #
     valor = 0 # Condição inicial #
     while True: # Laço infinito para trabalhar os dados #
@@ -19,3 +24,5 @@ def LeiaInt(msg): # Função LeiaInt #
 # Programa Principal #
 n = LeiaInt('Digite um número: ')
 print(f'Você acabou de digitar o número {n}!')
+
+# help(LeiaInt) #
